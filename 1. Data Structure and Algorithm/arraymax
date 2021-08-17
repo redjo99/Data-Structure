@@ -1,0 +1,6 @@
+ArrayMax(list,N):
+  largest<-list[0]
+  for i<-1 to N-1 do
+    if list[i]>largest
+      then largest<-list[i]
+  return largest
