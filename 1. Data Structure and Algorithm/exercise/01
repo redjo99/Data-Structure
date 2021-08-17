@@ -1,0 +1,6 @@
+// Write an algorithm swapping 2 integers in pseudo code.
+
+Swap(a,b):
+    temp=a
+    a=b
+    b=temp
