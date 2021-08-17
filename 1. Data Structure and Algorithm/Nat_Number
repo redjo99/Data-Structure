@@ -1,0 +1,14 @@
+objects: ordered range of integer from 0 to INT_MAX
+functions:
+  Nat_Number zero()   ::= 0
+  Nat_Number successor(x) ::= if(x==INT_MAX) return x
+                              else return x+1
+  Boolean is_zero(x)  ::= if (x) return FALSE
+                          else return TRUE
+  Boolean equal(x,y)  ::= if (x==y) return TRUE
+                          else return FALSE
+  Nat_Number add(x,y) ::= if ((x+y)<=INT_MAX)
+                          return x+y
+                          else return INT_MAX
+  Nat_Number sub(x,y) ::= if (x<y) return 0
+                          else return x-y;
