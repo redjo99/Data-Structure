@@ -1,0 +1,4 @@
+object: A collection of distinct elements, considered as an object in its own right
+functions:
+  Void Create(A)      ::= char A[10]
+  Void Insert(A,x)    ::= 
