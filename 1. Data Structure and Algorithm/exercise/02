@@ -1,0 +1,4 @@
+FindBiggerNum(a,b):
+  if(a>b)
+    then return a
+  return b
