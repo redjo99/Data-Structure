@@ -1,0 +1,10 @@
+object: A logical data type which judges whether given statement is TRUE or FALSE
+functions: 
+  Boolean And(a,b)      ::= if (a==b==TRUE) return TRUE
+                            else return FALSE
+  Boolean Or(a,b)       ::= if (a==b==FALSE) return FALSE
+                            else return TRUE
+  Boolean Not(a)        ::= if (a==TRUE) return FALSE
+                            else return TRUE
+  Boolean Xor(a,b)      ::= if (a==b) return FALSE
+                            else return TRUE
